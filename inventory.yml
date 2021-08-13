@@ -1,0 +1,5 @@
+web:
+  hosts:
+    3.87.198.82
+  vars:
+    ansible_user: ubuntu

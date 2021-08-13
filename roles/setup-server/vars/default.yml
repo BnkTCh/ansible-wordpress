@@ -1,0 +1,14 @@
+---
+#System Settings
+php_modules: [ 'php-curl', 'php-gd', 'php-mbstring', 'php-xml', 'php-xmlrpc', 'php-soap', 'php-intl', 'php-zip' ]
+
+#MySQL Settings
+mysql_root_password: "bianca123$"
+mysql_db: "wordpress"
+mysql_user: "bnktch"
+mysql_password: "bianca123"
+
+#HTTP Settings
+http_host: "bianca.com"
+http_conf: "bianca.com.conf"
+http_port: "80"
