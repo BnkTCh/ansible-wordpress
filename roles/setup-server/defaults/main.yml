@@ -1,0 +1,37 @@
+lamp_install:
+  - apache2 
+  - mysql-server 
+  - python3-pymysql 
+  - php 
+  - php-mysql 
+  - libapache2-mod-php
+
+php_modules:
+  - php-curl
+  - php-gd
+  - php-mbstring
+  - php-xml
+  - php-xmlrpc
+  - php-soap
+  - php-intl
+  - php-zip
+
+binaries_install:
+# prerequisites
+  - aptitude
+# LAMP  
+  - apache2 
+  - mysql-server 
+  - python3-pymysql 
+  - php 
+  - php-mysql 
+  - libapache2-mod-php
+# PHP MODULES  
+  - php-curl
+  - php-gd
+  - php-mbstring
+  - php-xml
+  - php-xmlrpc
+  - php-soap
+  - php-intl
+  - php-zip
